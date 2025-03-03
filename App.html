@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/58cd77cc62.js" crossorigin="anonymous"></script>
+    <title> weatherApp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-header">
+            <h1>My Weather App</h1>
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjRlNDhjMHQ1NTU5ZHV2NDVzeGtsZzNybDF3NGp6Y3hjOW5kaGJhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QRhtqYeEywJI4/giphy.gif" alt="image" />
+        </div>
+       <div class="App-body">
+           <form class="weatherForm">
+              <input class="InputCity" placeholder="Enter city name" />
+              <button class="InputBtn" type="submit">Get weather</button>
+            </form> 
+
+            <div class="card" style="display: none">
+               <h2 class="CityDisplay">1</h2>
+               <p class="TempDisplay">2</p>
+               <p class="HumidityDisplay">3</p>
+               <p class="DescDisplay">4</p>
+               <p class="WeatherEmoji">5</p>
+               <p class="ErrorDisplay">5</p>
+            </div>   
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
